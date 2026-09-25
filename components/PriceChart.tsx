@@ -34,8 +34,8 @@ export default function PriceChart({ bars, levels }: { bars: Bar[]; levels: Leve
       upColor: v("--up"), downColor: v("--down"), borderVisible: false, wickUpColor: v("--up"), wickDownColor: v("--down"),
     });
     candles.setData(bars.map(b => ({ time: b.date, open: b.open, high: b.high, low: b.low, close: b.close })));
-    chart.addSeries(LineSeries, { color: "#f5a524", lineWidth: 2, priceLineVisible: false, lastValueVisible: false, title: "MA50" }).setData(sma(bars, 50));
-    chart.addSeries(LineSeries, { color: "#6e8efb", lineWidth: 2, priceLineVisible: false, lastValueVisible: false, title: "MA200" }).setData(sma(bars, 200));
+    chart.addSeries(LineSeries, { color: "#f5a524", lineWidth: 2, priceLineVisible: false, lastValueVisible: false, title: "MA8" }).setData(sma(bars, 8));
+    chart.addSeries(LineSeries, { color: "#6e8efb", lineWidth: 2, priceLineVisible: false, lastValueVisible: false, title: "MA80" }).setData(sma(bars, 80));
     const vol = chart.addSeries(HistogramSeries, { priceFormat: { type: "volume" }, priceScaleId: "vol", color: "rgba(140,150,170,.4)" });
     vol.priceScale().applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
     vol.setData(bars.map(b => ({ time: b.date, value: b.volume, color: b.close >= b.open ? "rgba(29,128,73,.35)" : "rgba(190,58,58,.35)" })));
