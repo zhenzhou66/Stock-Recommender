@@ -1,0 +1,58 @@
+:root{
+  --bg:#F3F5F4; --surface:#FFFFFF; --surface-2:#EAEFED; --line:#D6DEDA;
+  --ink:#15201B; --muted:#5B6964; --faint:#8A9792;
+  --accent:#0C6A80; --up:#1D8049; --up-soft:#DDF1E4; --down:#BE3A3A; --down-soft:#F7E1E1; --warn:#A86A12; --warn-soft:#F6EBD6;
+  --display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  color-scheme:dark;
+  --bg:#0E1412; --surface:#151D1A; --surface-2:#1C2622; --line:#2A3632;
+  --ink:#E4EBE8; --muted:#9AA8A2; --faint:#6E7C77;
+  --accent:#58B6CB; --up:#4CC482; --up-soft:#153526; --down:#EA6B6B; --down-soft:#3A1C1C; --warn:#E0A94A; --warn-soft:#3A2D14;
+}}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance}
+h1{font-size:30px} h2{font-size:21px} h3{font-size:17px}
+p{margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 56px;display:flex;flex-direction:column;gap:28px}
+.nav{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:12px}
+.nav nav{display:flex;gap:16px;font-weight:600}
+.label{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.muted{color:var(--muted)} .faint{color:var(--faint)}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)}
+.section{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--surface-2);color:var(--muted)}
+.chip.up{background:var(--up-soft);color:var(--up)} .chip.down{background:var(--down-soft);color:var(--down)} .chip.warn{background:var(--warn-soft);color:var(--warn)}
+.badge{display:inline-block;font-family:var(--display);font-weight:700;font-size:20px;padding:5px 12px;border-radius:6px}
+.checks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px;font-size:14px}
+.checks li{display:grid;grid-template-columns:20px 1fr;gap:6px}
+.ok{color:var(--up);font-weight:700} .no{color:var(--down);font-weight:700}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:24px}
+@media (max-width:820px){.two{grid-template-columns:1fr}}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px 16px}
+.kv .v{font-family:var(--mono);font-size:17px;font-weight:600;display:block}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:8px 12px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{background:var(--surface-2);font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+td.r,th.r{text-align:right;font-family:var(--mono)}
+.score{font-family:var(--mono);font-weight:600;font-size:18px;border-radius:6px;padding:4px 10px;display:inline-block}
+.s-hi{background:var(--up-soft);color:var(--up)} .s-mid{background:var(--warn-soft);color:var(--warn)} .s-lo{background:var(--down-soft);color:var(--down)}
+.levels{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;font-size:13px}
+.levels .v{font-family:var(--mono);font-weight:600;font-size:16px;display:block}
+details summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:13px}
+details ul{margin:6px 0 0;padding-left:18px;font-size:13px;display:flex;flex-direction:column;gap:3px}
+ol.bears{margin:0;padding-left:20px;font-size:14px;display:flex;flex-direction:column;gap:4px}
+.chartbox{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px;min-height:420px}
+.note{font-size:12.5px;color:var(--faint);max-width:760px}
+.banner{background:var(--warn-soft);color:var(--warn);border-radius:8px;padding:10px 14px;font-weight:600;font-size:14px}
