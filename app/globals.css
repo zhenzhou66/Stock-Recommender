@@ -52,6 +52,11 @@ td.r,th.r{text-align:right;font-family:var(--mono)}
 .levels .v{font-family:var(--mono);font-weight:600;font-size:16px;display:block}
 details summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:13px}
 details ul{margin:6px 0 0;padding-left:18px;font-size:13px;display:flex;flex-direction:column;gap:3px}
+.whylv{display:flex;flex-direction:column;gap:11px;margin-top:8px}
+.whylv .row{display:flex;flex-direction:column;gap:3px}
+.whylv .top{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.whylv .top .v{font-family:var(--mono);font-weight:600;font-size:15px}
+.whylv .row p{font-size:13px;color:var(--muted);max-width:68ch}
 ol.bears{margin:0;padding-left:20px;font-size:14px;display:flex;flex-direction:column;gap:4px}
 .chartbox{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px;min-height:420px}
 .note{font-size:12.5px;color:var(--faint);max-width:760px}

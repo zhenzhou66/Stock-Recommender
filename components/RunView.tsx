@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { RunFull, Candidate } from "@/lib/data";
-import { Checks, List, Sources, cls, fmtDate, fx, pct, scoreCls } from "./ui";
+import { Checks, List, Sources, WhyLevels, cls, fmtDate, fx, pct, scoreCls } from "./ui";
 
 function Market({ r }: { r: RunFull }) {
   const m = r.market, k = m.klci ?? {};
@@ -53,6 +53,7 @@ function Early({ list, marketPass }: { list: Candidate[]; marketPass: boolean })
               <div><span className="label">Stop</span><span className="v down">{fx(p.stop, 3)}</span></div>
               <div><span className="label">TP1</span><span className="v up">{fx(p.tp1, 3)}</span></div>
             </div>
+            <WhyLevels p={p} note={p.extra?.plan_note} />
             <p style={{ fontSize: 14 }}>{p.why}</p>
             <List items={p.passes} ok />
             <List items={p.fails} ok={false} />
@@ -98,6 +99,7 @@ export default function RunView({ r }: { r: RunFull }) {
           <div className="grid">{picks.map(p => (
             <article className="card" key={p.code}><h3><Link href={`/stocks/${p.code}`}>{p.code}</Link> {p.name}</h3>
               <div className="levels"><div><span className="label">Entry</span><span className="v">{fx(p.price, 3)}</span></div><div><span className="label">Stop</span><span className="v down">{fx(p.stop, 3)}</span></div><div><span className="label">TP1</span><span className="v up">{fx(p.tp1, 3)}</span></div><div><span className="label">TP2</span><span className="v up">{fx(p.tp2, 3)}</span></div></div>
+              <WhyLevels p={p} note={p.extra?.plan_note} />
             </article>))}</div>
         </section>
       )}

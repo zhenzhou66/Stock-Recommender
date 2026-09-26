@@ -1,7 +1,7 @@
 import Link from "next/link";
 import PriceChart from "@/components/PriceChart";
 import { getStock } from "@/lib/data";
-import { List, Sources, fmtDate, fx, pct } from "@/components/ui";
+import { List, Sources, WhyLevels, fmtDate, fx, pct, planMath } from "@/components/ui";
 
 export const revalidate = 300;
 
@@ -10,6 +10,7 @@ export default async function StockPage({ params }: { params: Promise<{ code: st
   const { bars, snaps, appearances } = await getStock(code);
   const latest = appearances[0];
   const snap = snaps[0];
+  const m = planMath(latest ?? {});
   const levels = latest ? [
     { price: Number(latest.trigger), title: "Buy above", color: "#0C6A80" },
     { price: Number(latest.stop), title: "Stop", color: "#BE3A3A" },
@@ -33,10 +34,10 @@ export default async function StockPage({ params }: { params: Promise<{ code: st
             <div className="levels">
               <div><span className="label">Buy above</span><span className="v" style={{ color: "var(--accent)" }}>{fx(latest.trigger, 3)}</span></div>
               <div><span className="label">Stop-loss</span><span className="v down">{fx(latest.stop, 3)}</span></div>
-              <div><span className="label">TP1 (2R)</span><span className="v up">{fx(latest.tp1, 3)}</span></div>
-              <div><span className="label">TP2 (3R)</span><span className="v up">{fx(latest.tp2, 3)}</span></div>
+              <div><span className="label">TP1{m.tp1R ? ` (${m.tp1R.toFixed(1)}R)` : ""}</span><span className="v up">{fx(latest.tp1, 3)}</span></div>
+              <div><span className="label">TP2{m.tp2R ? ` (${m.tp2R.toFixed(1)}R)` : ""}</span><span className="v up">{fx(latest.tp2, 3)}</span></div>
             </div>
-            {latest.extra?.plan_note && <p className="muted" style={{ fontSize: 14 }}>{latest.extra.plan_note}</p>}
+            <WhyLevels p={latest} note={latest.extra?.plan_note} open />
             <p style={{ fontSize: 14 }}>{latest.why}</p>
             <List items={latest.passes} ok /><List items={latest.fails} ok={false} />
           </div>
