@@ -1,4 +1,6 @@
 name: Sync data to Supabase
+# Price history for the charts is now fetched inside Supabase every weekday
+# (see supabase/migrations/002_daily_price_job.sql). This Action only loads report files pushed to data/.
 
 on:
   push:
@@ -18,11 +20,6 @@ jobs:
       - run: npm ci
       - name: Load reports and stock snapshots
         run: npm run sync
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-      - name: Fetch daily price history for the charts
-        run: node scripts/fetch-bars.mjs
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

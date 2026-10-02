@@ -1,0 +1,898 @@
+{
+ "date": "2026-09-29",
+ "createdAt": "2026-09-29T18:45:00+08:00",
+ "counts": {
+  "universe": 1134,
+  "liquid": 259,
+  "early": 7,
+  "picks": 0
+ },
+ "market": {
+  "pass": false,
+  "verdict": "Downtrend, support broken",
+  "summary": "The KLCI fell 1.6% to 1,643.96, its lowest close in three months, and broke below the 1,655 floor that had held all month. Banks led the selling (CIMB, RHB, Maybank) as the US 10-year Treasury yield hit a 19-year high and oil stayed above US$100. The monthly trend rule fails more clearly than before. RSI 28 is oversold, so a bounce is likely, but a bounce is not a trend: wait for a close back above about 1,700 (the 10-month average) before buying anything.",
+  "klci": {
+   "last": 1643.96,
+   "chg_pct": -1.56,
+   "ma50": 1712.5,
+   "ma200": 1704.0,
+   "monthly_ma10": 1699.2,
+   "ret_1m": -5.7
+  },
+  "checks": [
+   {
+    "ok": false,
+    "label": "Monthly: KLCI 1,644.0 is below its 10-month MA (1,699.2)"
+   },
+   {
+    "ok": false,
+    "label": "Monthly: 5-month MA (1,688.4) is below the 10-month MA, so the monthly trend is not up"
+   },
+   {
+    "ok": true,
+    "label": "Long term: 10-month MA still above the 20-month MA (1,628.8); KLCI +2.1% over 1 year"
+   },
+   {
+    "ok": false,
+    "label": "Daily: below the 50-day (1,712.5) and 200-day (1,704.0) MA; the 50-day MA is falling"
+   },
+   {
+    "ok": false,
+    "label": "Support broken: closed below the 1,655 floor of its 3-month range (new 3-month low 1,643.4)"
+   },
+   {
+    "ok": false,
+    "label": "Momentum: −5.7% over 1 month, RSI(14) 28 — oversold, so a bounce is possible"
+   },
+   {
+    "ok": false,
+    "label": "Breadth: 43% of liquid stocks above their 50-day MA (44% on Monday)"
+   },
+   {
+    "ok": false,
+    "label": "Today: 241 stocks rose vs 376 that fell"
+   },
+   {
+    "ok": false,
+    "label": "Rates and oil: US 10-year yield at a 19-year high; Brent above US$100"
+   }
+  ],
+  "sources": [
+   {
+    "title": "Bursa ends sharply lower on rising yields, oil prices",
+    "publisher": "Free Malaysia Today",
+    "date": "2026-09-29",
+    "url": "https://www.freemalaysiatoday.com/category/business/2026/09/29/bursa-ends-sharply-lower-on-rising-yields-oil-prices"
+   },
+   {
+    "title": "Bursa Malaysia sinks deeper into the red at midday",
+    "publisher": "The Star",
+    "date": "2026-09-29",
+    "url": "https://www.thestar.com.my/business/business-news/2026/09/29/bursa-malaysia-sinks-deeper-into-the-red-at-midday"
+   },
+   {
+    "title": "Bursa Malaysia lower at midday amid selling in banking stocks",
+    "publisher": "Bernama",
+    "date": "2026-09-29",
+    "url": "https://www.bernama.com/en/market/news.php?id=2613187"
+   },
+   {
+    "title": "Foreign investors turn net sellers on Bursa with RM473 million outflow",
+    "publisher": "Business Today",
+    "date": "2026-09-28",
+    "url": "https://www.businesstoday.com.my/2026/09/28/foreign-investors-turn-net-sellers-on-bursa-with-rm473-million-outflow/"
+   }
+  ]
+ },
+ "sectors": [
+  {
+   "name": "Solar & renewable energy (theme across sectors)",
+   "rank": 1,
+   "pass": true,
+   "trend": "Uptrend",
+   "perf_1m": 58.5,
+   "perf_3m": 73.8,
+   "volume_trend": "Rising",
+   "hot_reason": "The first data-centre CRESS deal was signed on 28 Sep: a JV of SD Guthrie, Gamuda and Gentari will build at least 680MW of solar plus 4-hour battery storage in Perak for a US tech company, with RM10bn+ revenue over 21 years. Solar names rallied again on a day the KLCI fell 1.6%: Samaiden +9.7%, Solarvest +7.9% on 3.8× volume, Pekat +4.2%.",
+   "earnings_outlook": "Installers are profitable and growing (Samaiden earnings +82%, Pekat +22%, Solarvest +15%). HLIB still expects Solarvest and Samaiden to win their first CRESS projects within three months. The LSS6 tender is further out: Maybank expects the shortlist in 1H 2027 and awards in 2H 2027.",
+   "checks": [
+    {
+     "ok": true,
+     "label": "Trend: all the main names far above their 50-day and 200-day MAs"
+    },
+    {
+     "ok": true,
+     "label": "Hot: +58% over 1 month, +74% over 3 months (market-cap weighted: Solarvest, Samaiden, Pekat, Northern Solar)"
+    },
+    {
+     "ok": true,
+     "label": "Volume: 10-day volume 2.3–5.0× the 60-day average"
+    },
+    {
+     "ok": true,
+     "label": "Profitable with rising earnings"
+    },
+    {
+     "ok": false,
+     "label": "Overheated: RSI 84–95 on the leaders — this is the 'already ran' list, not the buy list"
+    }
+   ],
+   "sources": [
+    {
+     "title": "SD Guthrie, Gamuda and Gentari JV inks 21-year renewable energy deal for data centres",
+     "publisher": "The Star",
+     "date": "2026-09-29",
+     "url": "https://www.thestar.com.my/business/business-news/2026/09/29/sd-guthrie-jv-inks-21-year-renewable-energy-deal-for-data-centres"
+    },
+    {
+     "title": "Renewable energy stocks surge on CRESS boost",
+     "publisher": "The Star",
+     "date": "2026-09-21",
+     "url": "https://www.thestar.com.my/business/business-news/2026/09/21/renewable-energy-stocks-surge-on-cress-boost"
+    },
+    {
+     "title": "Solarvest, Samaiden tipped for first Cress project wins within three months",
+     "publisher": "New Straits Times",
+     "date": "2026-09",
+     "url": "https://www.nst.com.my/business/corporate/2026/09/1537346/solarvest-samaiden-tipped-first-cress-project-wins-within-three"
+    }
+   ]
+  },
+  {
+   "name": "Electronic Technology (semiconductors)",
+   "rank": 2,
+   "pass": true,
+   "trend": "Uptrend",
+   "perf_1m": 1.6,
+   "perf_3m": 15.8,
+   "volume_trend": "Cooling",
+   "hot_reason": "Still the strongest sector over three months on AI-driven chip demand, but momentum has stalled this month and chip stocks sold off with US tech yesterday.",
+   "earnings_outlook": "95% of sector market cap is profitable; median earnings growth +28% year on year. Valuations are high (ViTrox ~88× earnings).",
+   "checks": [
+    {
+     "ok": true,
+     "label": "Trend: 60% of sector market cap above its 50-day MA, 90% above its 200-day"
+    },
+    {
+     "ok": true,
+     "label": "#1 on combined 1- and 3-month performance"
+    },
+    {
+     "ok": false,
+     "label": "Volume: 10-day turnover 0.87× the 60-day average (cooling)"
+    },
+    {
+     "ok": true,
+     "label": "Profitable, earnings rising"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Cover Story: Bursa's semiconductor rally raises the question: Boom or bubble?",
+     "publisher": "The Edge Malaysia",
+     "date": "2026-06",
+     "url": "https://theedgemalaysia.com/node/805852"
+    }
+   ]
+  },
+  {
+   "name": "Industrial Services (construction, O&G services)",
+   "rank": 3,
+   "pass": true,
+   "trend": "Uptrend",
+   "perf_1m": 1.6,
+   "perf_3m": 10.1,
+   "volume_trend": "Rising",
+   "hot_reason": "Data-centre building and power works: Gamuda, Binastra, MN Holdings, SunCon. Today's CRESS deal adds a renewable-power leg to Gamuda.",
+   "earnings_outlook": "All of the sector's market cap is profitable; median earnings growth +15%. Order books are at records for the data-centre builders.",
+   "checks": [
+    {
+     "ok": true,
+     "label": "Trend: 53% of sector market cap above its 50-day MA, 70% above its 200-day"
+    },
+    {
+     "ok": true,
+     "label": "#2 over 1 month and 3 months among sectors"
+    },
+    {
+     "ok": true,
+     "label": "Volume: 10-day turnover 1.34× the 60-day average (rising)"
+    },
+    {
+     "ok": true,
+     "label": "Profitable, earnings growing"
+    }
+   ],
+   "sources": [
+    {
+     "title": "SunCon rides wave of data centres",
+     "publisher": "The Star",
+     "date": "2026-08-05",
+     "url": "https://www.thestar.com.my/business/business-news/2026/08/05/suncon-rides-wave-of-data-centres"
+    },
+    {
+     "title": "Gamuda bags RM1.71bil data centre job in Port Dickson",
+     "publisher": "The Star",
+     "date": "2026-08-05",
+     "url": "https://www.thestar.com.my/business/business-news/2026/08/05/gamuda-bags-rm171bil-data-centre-job-in-port-dickson"
+    }
+   ]
+  },
+  {
+   "name": "Utilities",
+   "rank": 6,
+   "pass": false,
+   "trend": "Sideways",
+   "perf_1m": -5.2,
+   "perf_3m": 8.4,
+   "volume_trend": "Rising",
+   "hot_reason": "YTL Power and Ranhill have run, but Tenaga — the biggest member — is in a downtrend and fell again today.",
+   "earnings_outlook": "All profitable; median earnings growth −9% year on year.",
+   "checks": [
+    {
+     "ok": false,
+     "label": "Trend: 42% of sector market cap above its 50-day MA, 41% above its 200-day"
+    }
+   ],
+   "sources": []
+  },
+  {
+   "name": "Finance (banks, insurers)",
+   "rank": 10,
+   "pass": false,
+   "trend": "Downtrend",
+   "perf_1m": -5.7,
+   "perf_3m": -2.9,
+   "volume_trend": "Flat",
+   "hot_reason": "Led today's fall: CIMB, RHB, Maybank and Public Bank all lower as bond yields rose. Only 15% of the sector is above its 50-day MA.",
+   "earnings_outlook": "Profitable, median earnings growth +6%, but out of favour with foreign funds.",
+   "checks": [
+    {
+     "ok": false,
+     "label": "Trend: 15% of sector market cap above its 50-day MA, 11% above its 200-day"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bursa Malaysia lower at midday amid selling in banking stocks",
+     "publisher": "Bernama",
+     "date": "2026-09-29",
+     "url": "https://www.bernama.com/en/market/news.php?id=2613187"
+    }
+   ]
+  }
+ ],
+ "picks": [],
+ "followups": [],
+ "notes": "Run on Tue 29 Sep, 6.40pm, after the close (TradingView data for 1,134 Bursa stocks; 259 liquid). Volume trend = 10-day average ÷ 60-day average throughout. What changed: (1) The KLCI broke below its 1,655 support to 1,643.96 (−1.6%), led by banks, as US yields hit a 19-year high — the market check fails more clearly. (2) The first data-centre CRESS deal was signed (SD Guthrie/Gamuda/Gentari JV, 680MW solar + battery, RM10bn+ over 21 years), and solar and cable names rallied against the market. (3) Southern Cable broke out: it closed at a record 2.97 on 3.2× volume, above its 2.92 trigger — the first trigger to fire, but the market check blocks buying. (4) Gamuda is 0.4% under its 5.00 high with a new catalyst from the CRESS JV. Follow-ups: Binastra holds its base (2.50); UMS had no fresh Bursa trades; MN Holdings rose to 4.01 on thin volume; Infomina held Monday's jump but hasn't followed through; Powerwell slipped. Defensive stocks (KLK, IOI, Sime Darby, QL, Oriental) held up in the sell-off but aren't in a hot theme, so they're not on the list. Nothing is buyable while the market check fails; the most likely first buys when it turns are Southern Cable (if it holds above 2.91) and Gamuda (on a close above 5.01).",
+ "catalysts": [
+  {
+   "title": "First CRESS data-centre deal signed — more to follow",
+   "when": "Signed 28 Sep; more expected over Q4 2026",
+   "theme": "Solar / green power for data centres",
+   "detail": "A JV of SD Guthrie (33.5%), Gamuda (33%) and Gentari (33.5%) signed a 21-year CRESS term sheet with a US tech company for at least 680MW of solar plus 4-hour battery storage in Perak, worth over RM10bn of revenue, running from 2029. It confirms the 30% green-power rule is turning into real contracts. HLIB expects Solarvest and Samaiden to sign their first CRESS projects within three months. The installers have already run; the supply chain (cables, switchgear, substations) and the asset owners have not moved as much.",
+   "beneficiaries": [
+    "Gamuda",
+    "SD Guthrie",
+    "Southern Cable",
+    "Powerwell",
+    "MN Holdings",
+    "Solarvest (already ran)",
+    "Samaiden (already ran)"
+   ],
+   "sources": [
+    {
+     "title": "SD Guthrie, Gamuda and Gentari JV inks 21-year renewable energy deal for data centres",
+     "publisher": "The Star",
+     "date": "2026-09-29",
+     "url": "https://www.thestar.com.my/business/business-news/2026/09/29/sd-guthrie-jv-inks-21-year-renewable-energy-deal-for-data-centres"
+    },
+    {
+     "title": "Solarvest, Samaiden tipped for first Cress project wins within three months",
+     "publisher": "New Straits Times",
+     "date": "2026-09",
+     "url": "https://www.nst.com.my/business/corporate/2026/09/1537346/solarvest-samaiden-tipped-first-cress-project-wins-within-three"
+    },
+    {
+     "title": "Renewable energy stocks surge on CRESS boost",
+     "publisher": "The Star",
+     "date": "2026-09-21",
+     "url": "https://www.thestar.com.my/business/business-news/2026/09/21/renewable-energy-stocks-surge-on-cress-boost"
+    }
+   ]
+  },
+  {
+   "title": "Budget 2027 tabled on 9 October",
+   "when": "Friday 9 October 2026",
+   "theme": "Whole market",
+   "detail": "The Finance Ministry confirmed Budget 2027 will be tabled on 9 October. Energy transition, data centres, infrastructure and any change to subsidies or electricity tariffs are the usual market movers. Favoured themes often run up in the week before and sell off on the day.",
+   "beneficiaries": [
+    "Construction",
+    "Renewable energy",
+    "Utilities"
+   ],
+   "sources": [
+    {
+     "title": "Pre-Budget Statement 2027",
+     "publisher": "Ministry of Finance",
+     "date": "2026",
+     "url": "https://mof.gov.my/portal/en/news/press-release/pre-budget-statement-2027"
+    }
+   ]
+  },
+  {
+   "title": "Data-centre construction and power contract awards",
+   "when": "2H 2026, ongoing",
+   "theme": "Data centres",
+   "detail": "Award flow has been steady: Binastra has several data-centre jobs (RM491m in July), MN Holdings RM216m and RM276m of substation work, Gamuda RM1.71bn in Port Dickson, and SunCon is bidding for five more data-centre clients. Each award tends to lift the chain for a day or two.",
+   "beneficiaries": [
+    "Binastra",
+    "MN Holdings",
+    "Gamuda",
+    "Sunway Construction",
+    "Southern Cable"
+   ],
+   "sources": [
+    {
+     "title": "Binastra's RM491mil data centre job win to boost profit",
+     "publisher": "The Star",
+     "date": "2026-07-03",
+     "url": "https://www.thestar.com.my/business/business-news/2026/07/03/binastras-rm491mil-data-centre-job-win-to-boost-profit"
+    },
+    {
+     "title": "MN Holdings unit bags RM216mil contract for data centre consumer substation",
+     "publisher": "The Star",
+     "date": "2026-03-12",
+     "url": "https://www.thestar.com.my/business/business-news/2026/03/12/mn-holdings-unit-bags-rm216mil-contract-for-data-centre-consumer-substation"
+    },
+    {
+     "title": "Gamuda bags RM1.71bil data centre job in Port Dickson",
+     "publisher": "The Star",
+     "date": "2026-08-05",
+     "url": "https://www.thestar.com.my/business/business-news/2026/08/05/gamuda-bags-rm171bil-data-centre-job-in-port-dickson"
+    },
+    {
+     "title": "SunCon rides wave of data centres",
+     "publisher": "The Star",
+     "date": "2026-08-05",
+     "url": "https://www.thestar.com.my/business/business-news/2026/08/05/suncon-rides-wave-of-data-centres"
+    }
+   ]
+  },
+  {
+   "title": "US yields at a 19-year high, oil above US$100",
+   "when": "Now",
+   "theme": "Whole market",
+   "detail": "The US 10-year Treasury yield is at a 19-year high, reviving Fed tightening fears, and Brent is above US$100 after the US rejected Iran's Hormuz proposal. This is what is pushing the KLCI down; banks and big caps are taking the hit. A fall in yields or a Hormuz de-escalation would be the trigger for a market rebound.",
+   "beneficiaries": [
+    "Refiners (Hengyuan, already ran)",
+    "Negative for: banks, transport, consumer"
+   ],
+   "sources": [
+    {
+     "title": "Bursa Malaysia sinks deeper into the red at midday",
+     "publisher": "The Star",
+     "date": "2026-09-29",
+     "url": "https://www.thestar.com.my/business/business-news/2026/09/29/bursa-malaysia-sinks-deeper-into-the-red-at-midday"
+    },
+    {
+     "title": "Oil prices jump over 4% as Trump rejects Iranian proposal to reopen Strait of Hormuz",
+     "publisher": "CNBC",
+     "date": "2026-09-28",
+     "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
+    }
+   ]
+  },
+  {
+   "title": "LSS6 solar + battery tender",
+   "when": "Shortlist 1H 2027; awards 2H 2027",
+   "theme": "Solar / battery storage",
+   "detail": "LSS6 covers 2.5GW of solar plus 1.2GW of battery storage, worth RM8–9bn of EPCC work. Maybank expects the shortlist in 1H 2027 and awards in 2H 2027, so this is a longer-term driver, not a near-term trigger.",
+   "beneficiaries": [
+    "Solarvest",
+    "Pekat",
+    "Samaiden",
+    "BM Greentech"
+   ],
+   "sources": [
+    {
+     "title": "Latest large-scale solar programme to unlock RM9 bil in EPCC jobs, awards expected by 2H2027 — Maybank",
+     "publisher": "The Edge Malaysia",
+     "date": "2026-07-17",
+     "url": "https://theedgemalaysia.com/node/811070"
+    },
+    {
+     "title": "LSS6 set to drive next phase of Malaysia's solar sector growth",
+     "publisher": "The Star",
+     "date": "2026-07-20",
+     "url": "https://www.thestar.com.my/business/business-news/2026/07/20/lss6-set-to-drive-next-phase-of-malaysias-solar-sector-growth"
+    }
+   ]
+  },
+  {
+   "title": "Quarterly results season",
+   "when": "By end-November 2026",
+   "theme": "All stocks",
+   "detail": "July–September results are due by the end of November. The data-centre and solar names need to show order books turning into profit; the chip names need to justify P/Es of 40–90.",
+   "beneficiaries": [
+    "Binastra",
+    "MN Holdings",
+    "Southern Cable",
+    "Gamuda",
+    "UMS Integration"
+   ],
+   "sources": []
+  }
+ ],
+ "early": [
+  {
+   "code": "SCGBHD",
+   "name": "Southern Cable",
+   "theme": "Cables for grid, solar & data centres",
+   "readiness": 90,
+   "setup": "Triggered — market blocks buying",
+   "trigger": 2.92,
+   "stop": 2.68,
+   "tp1": 3.4,
+   "tp2": 3.64,
+   "yahoo": "0225.KL",
+   "why": "Broke out of its base today: +7.6% to a record close of 2.97 on 3.2× normal volume, the day Malaysia's first data-centre CRESS solar deal was announced. Solar farms, grid links and data centres all need its high-voltage cable, and it did this while the KLCI fell 1.6%.",
+   "passes": [
+    "Breakout: closed at 2.97, above the 2.91 top of its base and the 2.92 trigger",
+    "Volume: 3.2× the 30-day average today; 10-day volume 1.6× the 60-day",
+    "Beating the KLCI by 24 points over 1 month",
+    "ROE 22%, earnings +23%, revenue +25%, debt/equity 30%"
+   ],
+   "fails": [
+    "Market check failed: the KLCI broke support today",
+    "18% above its 50-day MA after two big up-days",
+    "P/E 21.2 is now just above your limit of 20"
+   ],
+   "bears": [
+    "Breakouts in a falling market fail more often; if the KLCI keeps sliding it can drag this back into the base.",
+    "A close back below 2.91 would turn this into a failed breakout.",
+    "Copper price swings squeeze cable makers' margins.",
+    "TNB is the dominant customer, so its order cycle drives earnings."
+   ],
+   "sources": [
+    {
+     "title": "Southern Cable secures RM403.6mil TNB supplementary contract",
+     "publisher": "The Star",
+     "date": "2026-07-02",
+     "url": "https://www.thestar.com.my/business/business-news/2026/07/02/southern-cable-secures-rm4036mil-tnb-supplementary-contract"
+    },
+    {
+     "title": "SD Guthrie, Gamuda and Gentari JV inks 21-year renewable energy deal for data centres",
+     "publisher": "The Star",
+     "date": "2026-09-29",
+     "url": "https://www.thestar.com.my/business/business-news/2026/09/29/sd-guthrie-jv-inks-21-year-renewable-energy-deal-for-data-centres"
+    }
+   ],
+   "valuation_note": "Fair: 21× earnings for 23% growth and 22% ROE.",
+   "plan_note": "The trigger fired today, but the market check blocks buying. If the KLCI passes while the price is still close to the trigger (up to about 3.00), the plan stands: stop 2.68, TP1 3.40, TP2 3.64. A close back below 2.91 cancels it. Don't chase above 3.00.",
+   "price": 2.97,
+   "chg_pct": 7.61,
+   "pe": 21.2,
+   "roe": 22.3,
+   "eps_growth": 23.2,
+   "de": 30.2,
+   "mcap_rm_m": 3527
+  },
+  {
+   "code": "GAMUDA",
+   "name": "Gamuda",
+   "theme": "Data centres + green power",
+   "readiness": 85,
+   "setup": "Near breakout",
+   "trigger": 5.01,
+   "stop": 4.78,
+   "tp1": 5.47,
+   "tp2": 5.7,
+   "yahoo": "5398.KL",
+   "why": "Now 0.4% under its 5.00 high after rising 1.4% on a down day. There is a fresh catalyst: Gamuda owns 33% of the JV that signed Malaysia's first data-centre CRESS deal (680MW solar + battery, RM10bn+ revenue over 21 years), which it expects to add to earnings from FY2027. That adds a green-power leg to its data-centre building business.",
+   "passes": [
+    "Uptrend: above the 20-day (4.77), 50-day (4.53) and 200-day (4.43) MA",
+    "0.4% under its 3-month high of 5.00",
+    "Volume building: 10-day average 1.4× the 60-day",
+    "Beating the KLCI by 16 points over 1 month",
+    "New catalyst: first data-centre CRESS deal (33% JV stake)"
+   ],
+   "fails": [
+    "Market check failed",
+    "P/E 28.9 (limit 20); ROE 8.4% (min 10%); debt/equity 103% (max 100%)",
+    "Today's volume only 1.1× normal — not a breakout day yet"
+   ],
+   "bears": [
+    "Debt/equity above 100% and ROE of 8.4% for a 29× P/E.",
+    "A big index stock that foreign funds keep selling; the KLCI breaking support is a headwind.",
+    "The CRESS project only earns from 2029; the market may already have priced the headline.",
+    "Sellers have been waiting at 4.90–5.00 for three weeks."
+   ],
+   "sources": [
+    {
+     "title": "SD Guthrie, Gamuda and Gentari JV inks 21-year renewable energy deal for data centres",
+     "publisher": "The Star",
+     "date": "2026-09-29",
+     "url": "https://www.thestar.com.my/business/business-news/2026/09/29/sd-guthrie-jv-inks-21-year-renewable-energy-deal-for-data-centres"
+    },
+    {
+     "title": "Gamuda bags RM1.71bil data centre job in Port Dickson",
+     "publisher": "The Star",
+     "date": "2026-08-05",
+     "url": "https://www.thestar.com.my/business/business-news/2026/08/05/gamuda-bags-rm171bil-data-centre-job-in-port-dickson"
+    }
+   ],
+   "valuation_note": "Expensive on your filters; you are paying for the order book and the new power business.",
+   "plan_note": "Buy only on a close above 5.01 with at least 1.5× volume, and only once the market check passes.",
+   "price": 4.98,
+   "chg_pct": 1.43,
+   "pe": 28.9,
+   "roe": 8.4,
+   "eps_growth": 6.4,
+   "de": 102.6,
+   "mcap_rm_m": 29705
+  },
+  {
+   "code": "BNASTRA",
+   "name": "Binastra Corporation",
+   "theme": "Data centres (construction)",
+   "readiness": 80,
+   "setup": "Near breakout",
+   "trigger": 2.55,
+   "stop": 2.44,
+   "tp1": 2.77,
+   "tp2": 2.88,
+   "yahoo": "7195.KL",
+   "why": "Still holding its tight 2.44–2.53 base just under the record high after a small dip to 2.50. Buying underneath continues (10-day volume 1.3× the 60-day). It remains the only candidate that passes your P/E, ROE and debt filters.",
+   "passes": [
+    "Uptrend: above the 20-day (2.48), 50-day (2.32) and 200-day (2.11) MA",
+    "Tight base: 1-month range 7.2%, 1.2% under the 2.53 record high",
+    "Volume: 10-day average 1.3× the 60-day; today 1.2× normal",
+    "P/E 16.5 within your limit; ROE 47%; debt/equity 18%; earnings +61%"
+   ],
+   "fails": [
+    "Market check failed",
+    "RSI 70 is getting warm",
+    "Price-to-book of 6.8 is high"
+   ],
+   "bears": [
+    "No support above the 2.44 floor of the base if a breakout fails.",
+    "Construction margins are thin; one problem job can hit a quarter.",
+    "Order book concentrated in data centres for few clients.",
+    "Revenue growth of 78% is not repeatable."
+   ],
+   "sources": [
+    {
+     "title": "Binastra's RM491mil data centre job win to boost profit",
+     "publisher": "The Star",
+     "date": "2026-07-03",
+     "url": "https://www.thestar.com.my/business/business-news/2026/07/03/binastras-rm491mil-data-centre-job-win-to-boost-profit"
+    }
+   ],
+   "valuation_note": "The cheapest candidate on your own rules: 16.5× earnings for 61% growth.",
+   "plan_note": "Buy only on a close above 2.55 with at least 1.5× volume; stop 2.44 at the floor of the base.",
+   "price": 2.5,
+   "chg_pct": -0.4,
+   "pe": 16.5,
+   "roe": 46.7,
+   "eps_growth": 60.9,
+   "de": 17.8,
+   "mcap_rm_m": 2747
+  },
+  {
+   "code": "UMSINT",
+   "name": "UMS Integration",
+   "theme": "AI chips (precision parts)",
+   "readiness": 75,
+   "setup": "Quiet buying",
+   "trigger": 8.76,
+   "stop": 8.36,
+   "tp1": 9.56,
+   "tp2": 9.96,
+   "yahoo": "5340.KL",
+   "why": "No change: the price is still 8.61 in a tight base under 8.75, with 10-day volume 3.1× the 60-day average. Bursa data showed no fresh trades today (UMS trades mainly in Singapore), so readiness is trimmed until Bursa activity resumes.",
+   "passes": [
+    "Uptrend: above the 20-day (8.30), 50-day (8.13) and 200-day (6.24) MA",
+    "Base: 1.6% under its 1-month high of 8.75",
+    "Quiet buying: 10-day volume 3.1× the 60-day average",
+    "Profitable, earnings +27%, almost no debt"
+   ],
+   "fails": [
+    "Market check failed",
+    "No fresh Bursa trades today",
+    "P/E 43.7 far above your limit of 20"
+   ],
+   "bears": [
+    "P/E 43.7 prices in a lot of growth.",
+    "3-month high at 9.10 is resistance just above the trigger.",
+    "Chip stocks follow US tech sentiment.",
+    "Revenue growth is slow (+4.7%)."
+   ],
+   "sources": [
+    {
+     "title": "Cover Story: Bursa's semiconductor rally raises the question: Boom or bubble?",
+     "publisher": "The Edge Malaysia",
+     "date": "2026-06",
+     "url": "https://theedgemalaysia.com/node/805852"
+    }
+   ],
+   "valuation_note": "Expensive against your filter, typical of AI-chip names.",
+   "plan_note": "Buy only on a close above 8.76 with at least 1.5× volume.",
+   "price": 8.61,
+   "chg_pct": 0.12,
+   "pe": 43.7,
+   "roe": 12.6,
+   "eps_growth": 27.0,
+   "de": 2.1,
+   "mcap_rm_m": 7466
+  },
+  {
+   "code": "MNHLDG",
+   "name": "MN Holdings",
+   "theme": "Power infrastructure for data centres",
+   "readiness": 70,
+   "setup": "Near breakout",
+   "trigger": 4.05,
+   "stop": 3.8,
+   "tp1": 4.55,
+   "tp2": 4.8,
+   "yahoo": "0245.KL",
+   "why": "Up 1.3% to 4.01 on a down day, 0.5% under its 4.03 record high — but on thin volume. It builds the substations and power links data centres and solar farms need, so today's CRESS deal is on its turf.",
+   "passes": [
+    "Uptrend: above the 20-day (3.77), 50-day (3.41) and 200-day (2.35) MA",
+    "0.5% under its record high of 4.03",
+    "ROE 32%, earnings +71%, revenue +62%, debt 2%",
+    "Beating the KLCI by 20 points over 1 month"
+   ],
+   "fails": [
+    "Market check failed",
+    "Thin volume: 0.4× normal today, 0.9× over 10 days",
+    "P/E 30.8 above your limit of 20",
+    "18% above its 50-day MA"
+   ],
+   "bears": [
+    "Thin volume means the price can gap either way.",
+    "A RM2.7bn company competing with far larger contractors.",
+    "Lumpy contract flow shows up in quarterly profit.",
+    "At 31× earnings the growth is in the price."
+   ],
+   "sources": [
+    {
+     "title": "MN Holdings unit bags RM216mil contract for data centre consumer substation",
+     "publisher": "The Star",
+     "date": "2026-03-12",
+     "url": "https://www.thestar.com.my/business/business-news/2026/03/12/mn-holdings-unit-bags-rm216mil-contract-for-data-centre-consumer-substation"
+    }
+   ],
+   "valuation_note": "Expensive on P/E, but a clean balance sheet and high returns.",
+   "plan_note": "Buy only on a close above 4.05 with at least 1.5× volume.",
+   "price": 4.01,
+   "chg_pct": 1.26,
+   "pe": 30.8,
+   "roe": 31.9,
+   "eps_growth": 71.1,
+   "de": 2.0,
+   "mcap_rm_m": 2724
+  },
+  {
+   "code": "INFOM",
+   "name": "Infomina",
+   "theme": "Enterprise IT for banks",
+   "readiness": 65,
+   "setup": "Breakout attempt stalled",
+   "trigger": 1.75,
+   "stop": 1.58,
+   "tp1": 2.09,
+   "tp2": 2.26,
+   "yahoo": "0265.KL",
+   "why": "Held Monday's jump (1.70, −0.6%) but has not followed through above 1.74. Volume stayed above average (1.4×). Needs a close above 1.75 to confirm.",
+   "passes": [
+    "Uptrend: above the 20-day (1.60), 50-day (1.54) and 200-day (1.30) MA",
+    "2.3% under its 3-month high of 1.74",
+    "ROE 22%, earnings +60%, revenue +41%, low debt"
+   ],
+   "fails": [
+    "Market check failed",
+    "No follow-through yet",
+    "P/E 30.2 above your limit of 20",
+    "All-time high of 1.95 is resistance before TP1"
+   ],
+   "bears": [
+    "One big-volume day can be a one-off.",
+    "RSI 73 is stretched.",
+    "The 1.95 all-time high will likely cap the first move.",
+    "Dependent on bank IT spending, and banks are under pressure."
+   ],
+   "sources": [],
+   "valuation_note": "Middling: 30× earnings for 60% growth.",
+   "plan_note": "Buy only on a close above 1.75 with at least 1.5× volume; stop under the 20-day MA.",
+   "price": 1.7,
+   "chg_pct": -0.58,
+   "pe": 30.2,
+   "roe": 22.5,
+   "eps_growth": 60.4,
+   "de": 14.1,
+   "mcap_rm_m": 1028
+  },
+  {
+   "code": "PWRWELL",
+   "name": "Powerwell Holdings",
+   "theme": "Switchgear for solar & data centres",
+   "readiness": 55,
+   "setup": "Building a base",
+   "trigger": 1.23,
+   "stop": 1.13,
+   "tp1": 1.43,
+   "tp2": 1.53,
+   "yahoo": "0217.KL",
+   "why": "Switchgear maker that should benefit from CRESS solar farms and substations, but the share slipped 1.7% to 1.15 on light volume and is now 5.7% under its high.",
+   "passes": [
+    "Uptrend: above the 20-day (1.10), 50-day (1.01) and 200-day (0.77) MA",
+    "ROE 26%, earnings +31%, revenue +35%, low debt",
+    "10-day volume 1.35× the 60-day"
+   ],
+   "fails": [
+    "Market check failed",
+    "5.7% under its 1.22 high; today's volume 0.5×",
+    "P/E 23.1 above your limit of 20"
+   ],
+   "bears": [
+    "Smallest name on the list; thin trading.",
+    "Competitive switchgear market.",
+    "Already +39% over three months.",
+    "No contract announced; the case is thematic."
+   ],
+   "sources": [
+    {
+     "title": "Solarvest, Samaiden tipped for first Cress project wins within three months",
+     "publisher": "New Straits Times",
+     "date": "2026-09",
+     "url": "https://www.nst.com.my/business/corporate/2026/09/1537346/solarvest-samaiden-tipped-first-cress-project-wins-within-three"
+    }
+   ],
+   "valuation_note": "Middling: 23× earnings for 31% growth.",
+   "plan_note": "Buy only on a close above 1.23 with at least 1.5× volume; keep the position small.",
+   "price": 1.15,
+   "chg_pct": -1.71,
+   "pe": 23.1,
+   "roe": 25.8,
+   "eps_growth": 30.8,
+   "de": 20.3,
+   "mcap_rm_m": 679
+  }
+ ],
+ "already_ran": [
+  {
+   "code": "NORTHERN",
+   "name": "Northern Solar",
+   "theme": "Solar",
+   "price": 1.29,
+   "perf_w": 65.4,
+   "perf_1m": 84.3,
+   "rsi": 95,
+   "ext50": 73.1,
+   "zone": "About 0.95–1.05 (20-day MA 0.84 is far below)",
+   "yahoo": "0340.KL"
+  },
+  {
+   "code": "SAMAIDEN",
+   "name": "Samaiden",
+   "theme": "Solar",
+   "price": 3.18,
+   "perf_w": 33.6,
+   "perf_1m": 79.7,
+   "rsi": 92,
+   "ext50": 76.1,
+   "zone": "About 2.20–2.40 (20-day MA 2.16)",
+   "yahoo": "0223.KL"
+  },
+  {
+   "code": "PEKAT",
+   "name": "Pekat",
+   "theme": "Solar",
+   "price": 2.98,
+   "perf_w": 31.3,
+   "perf_1m": 56.8,
+   "rsi": 90,
+   "ext50": 50.4,
+   "zone": "About 2.25–2.45 (20-day MA 2.22)",
+   "yahoo": "0233.KL"
+  },
+  {
+   "code": "SLVEST",
+   "name": "Solarvest",
+   "theme": "Solar",
+   "price": 4.49,
+   "perf_w": 21.0,
+   "perf_1m": 47.7,
+   "rsi": 84,
+   "ext50": 38.0,
+   "zone": "About 3.55–3.80 (20-day MA 3.53)",
+   "yahoo": "0215.KL"
+  },
+  {
+   "code": "HENGYUAN",
+   "name": "Hengyuan Refining",
+   "theme": "Oil refining",
+   "price": 4.34,
+   "perf_w": 0.9,
+   "perf_1m": 111.7,
+   "rsi": 76,
+   "ext50": 78.0,
+   "zone": "About 3.55–3.80 (20-day MA 3.58)",
+   "yahoo": "4324.KL"
+  },
+  {
+   "code": "D&O",
+   "name": "D&O Green Technologies",
+   "theme": "Semiconductors (loss-making)",
+   "price": 0.57,
+   "perf_w": 18.7,
+   "perf_1m": 35.7,
+   "rsi": 72,
+   "ext50": 41.5,
+   "zone": "About 0.47–0.50 (20-day MA 0.47)",
+   "yahoo": "7204.KL"
+  },
+  {
+   "code": "MEGAFB",
+   "name": "Mega Fortris",
+   "theme": "Industrial machinery",
+   "price": 2.76,
+   "perf_w": 4.9,
+   "perf_1m": 30.8,
+   "rsi": 83,
+   "ext50": 29.7,
+   "zone": "About 2.45–2.55 (20-day MA 2.48)",
+   "yahoo": "5327.KL"
+  },
+  {
+   "code": "RANHILL",
+   "name": "Ranhill Utilities",
+   "theme": "Power & water",
+   "price": 3.34,
+   "perf_w": 6.0,
+   "perf_1m": 28.5,
+   "rsi": 73,
+   "ext50": 32.0,
+   "zone": "About 2.90–3.00 (20-day MA 2.91)",
+   "yahoo": "5272.KL"
+  },
+  {
+   "code": "JTGROUP",
+   "name": "Jati Tinggi",
+   "theme": "Utility engineering",
+   "price": 1.24,
+   "perf_w": 18.1,
+   "perf_1m": 27.8,
+   "rsi": 79,
+   "ext50": 38.8,
+   "zone": "About 1.03–1.10 (20-day MA 1.03)",
+   "yahoo": "0292.KL"
+  },
+  {
+   "code": "KERJAYA",
+   "name": "Kerjaya Prospek",
+   "theme": "Construction",
+   "price": 3.68,
+   "perf_w": 5.1,
+   "perf_1m": 26.5,
+   "rsi": 75,
+   "ext50": 26.3,
+   "zone": "About 3.35–3.45 (20-day MA 3.36)",
+   "yahoo": "7161.KL"
+  },
+  {
+   "code": "HEGROUP",
+   "name": "HE Group",
+   "theme": "Electrical / solar",
+   "price": 1.09,
+   "perf_w": 2.8,
+   "perf_1m": 26.0,
+   "rsi": 77,
+   "ext50": 35.4,
+   "zone": "About 0.96–1.00 (20-day MA 0.97)",
+   "yahoo": "0296.KL"
+  }
+ ]
+}

@@ -92,12 +92,18 @@ export default function PriceChart({
     });
     vol.priceScale().applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
     vol.setData(
-      bars.map((b) => ({
-        time: b.date,
-        value: b.volume,
-        color:
-          b.close >= b.open ? "rgba(29,128,73,.35)" : "rgba(190,58,58,.35)",
-      })),
+      bars.map((b, i) => {
+        // Yellow when volume is at least double the previous day's
+        const prev = i > 0 ? bars[i - 1].volume : 0;
+        const doubled = prev > 0 && b.volume >= 2 * prev;
+        return {
+          time: b.date,
+          value: b.volume,
+          color: doubled
+            ? "rgba(245,197,24,.9)"
+            : b.close >= b.open ? "rgba(29,128,73,.35)" : "rgba(190,58,58,.35)",
+        };
+      }),
     );
     levels
       .filter((l) => l.price > 0)

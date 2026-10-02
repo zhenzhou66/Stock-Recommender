@@ -4,7 +4,7 @@
  "counts": {
   "universe": 1134,
   "liquid": 265,
-  "early": 6,
+  "early": 7,
   "picks": 0
  },
  "market": {
@@ -46,7 +46,7 @@
    },
    {
     "ok": false,
-    "label": "Today: 388 stocks rose vs 748 that fell"
+    "label": "Today: 251 stocks rose vs 365 that fell (Bursa-wide incl. warrants: 388 vs 748)"
    },
    {
     "ok": false,
@@ -381,7 +381,7 @@
  ],
  "picks": [],
  "followups": [],
- "notes": "Run on Mon 28 Sep, 9.30pm, after the close. The screen covered all 1,134 Bursa stocks (265 liquid: market cap RM300m+ and RM500k+ average daily trading value), looking for bases near highs, quiet buying and breakouts on double volume, and excluding anything overheated (RSI above 75, more than 25% above its 50-day MA, or up more than 25% in a week). Three things changed since Friday. (1) A new name, Binastra, broke out to a record high on 2.1× volume and is the first candidate in weeks that passes your P/E limit of 20 as well as the ROE and debt tests. (2) Oil is the new macro driver — Brent above US$106 — but the move is confined to refiners, with no follow-through in oil services, so it is a sector note rather than a buy list. (3) Budget 2027 now has a firm date: Friday 9 October. Follow-ups on Friday's six: Gamuda is still 1.8% under its RM5.00 trigger but volume has dried up to 0.6× normal; Southern Cable gave back 4.2% today on 2.1× volume after last week's 11% jump, so the base at RM2.91 is intact but that down-day on heavy volume is a warning; UMS Integration keeps its place but is demoted, because 10-day volume fell from 3.0× to 0.2× normal and the quiet-buying case was the whole reason it was there; Kelington (−3.0% on no volume), SunCon (still under its 50-day MA) and Mega First are dropped — Mega First fell 2.6% on 3.1× volume and lost the 200-day MA it had only just reclaimed, which is a failed reclaim rather than a base. Nothing is buyable while the market check fails. On your P/E limit: Binastra shows the limit is less of a problem than it looked on Friday — a 16.5× stock with 47% ROE and 61% earnings growth does exist inside these themes — so leave it at 20 and treat P/E 20–30 names as exceptions that need a specific reason.",
+ "notes": "Corrected 28 Sep, 10pm after a review: the first version misread TradingView's relative-volume field (today's volume ÷ 10-day average) as the 10-day volume trend. Fixed: UMS Integration restored to readiness 80 (10-day volume still 3.1× the 60-day), Gamuda's volume is building not drying up (1.4×), MN Holdings is 0.8× over 10 days, Binastra relabelled Near breakout (it closed 2.51, just under its 2.53 high), Gamuda's '4th failed attempt at 5.00' removed, and Infomina moved from Already ran to Early candidates. Volume trend rule from now on: 10-day average ÷ 60-day average. Run on Mon 28 Sep, 9.30pm, after the close. The screen covered all 1,134 Bursa stocks (265 liquid: market cap RM300m+ and RM500k+ average daily trading value), looking for bases near highs, quiet buying and breakouts on double volume, and excluding anything overheated (RSI above 75, more than 25% above its 50-day MA, or up more than 25% in a week). Three things changed since Friday. (1) A new name, Binastra, is sitting in a tight base just under its 2.53 record high, with 2.1× volume today, and is the first candidate in weeks that passes your P/E limit of 20 as well as the ROE and debt tests. (2) Oil is the new macro driver — Brent above US$106 — but the move is confined to refiners, with no follow-through in oil services, so it is a sector note rather than a buy list. (3) Budget 2027 now has a firm date: Friday 9 October. Follow-ups on Friday's six: Gamuda is still 1.8% under its RM5.00 high, with 10-day volume still building (1.4× the 60-day) although today was quiet; Southern Cable gave back 4.2% today on 2.1× volume after last week's 11% jump, so the base at RM2.91 is intact but that down-day on heavy volume is a warning; UMS Integration keeps its place: 10-day volume is still 3.1× the 60-day average, although today's Bursa volume was light; Kelington (−3.0% on no volume), SunCon (still under its 50-day MA) and Mega First are dropped — Mega First fell 2.6% on 3.1× volume and lost the 200-day MA it had only just reclaimed, which is a failed reclaim rather than a base. Nothing is buyable while the market check fails. On your P/E limit: Binastra shows the limit is less of a problem than it looked on Friday — a 16.5× stock with 47% ROE and 61% earnings growth does exist inside these themes — so leave it at 20 and treat P/E 20–30 names as exceptions that need a specific reason.",
  "catalysts": [
   {
    "title": "Budget 2027 tabled on 9 October",
@@ -564,12 +564,12 @@
    "tp1": 2.77,
    "tp2": 2.88,
    "readiness": 85,
-   "setup": "Breaking out today",
-   "why": "A data-centre builder with an order book of about RM7bn — roughly seven times last year's revenue — that closed at a record high today on 2.1× normal volume while the market fell. It is the rare case where the chart and the numbers agree: P/E 16.5, return on equity 47%, earnings +61% and revenue +78% year on year, with almost no debt. It passes every one of your fundamental filters, which none of Friday's six did.",
+   "setup": "Near breakout",
+   "why": "A data-centre builder with an order book reported at about RM7bn in February (roughly seven times last year's revenue). It closed at 2.51 today, its highest close, on 2.1× normal volume while the market fell, but it is still just under the 2.53 intraday high from 21 Sep: for three weeks it has held a tight 2.44–2.53 range right under that high. It is the rare case where the chart and the numbers agree: P/E 16.5, return on equity 47%, earnings +61% and revenue +78% year on year, with almost no debt. It passes every one of your fundamental filters, which none of Friday's six did.",
    "passes": [
     "Uptrend: above the 20-day (2.47), 50-day (2.31) and 200-day (2.11) MA",
     "Tight base: the whole 1-month range is only 7.7% wide, and it sits 0.8% under its record high",
-    "Volume: 2.1× the 30-day average today, 2.3× over the last 10 days",
+    "Volume: 2.1× the 30-day average today; 10-day average 1.4× the 60-day, so buying is building",
     "P/E 16.5 is inside your limit of 20; ROE 47%; debt/equity 18%",
     "Earnings +61% and revenue +78% year on year",
     "Only 9% above its 50-day MA, so it is not extended"
@@ -585,7 +585,7 @@
    "de": 17.8,
    "mcap_rm_m": 2736,
    "bears": [
-    "A record high means no overhead resistance, but also no support: there is nothing below to catch it if the breakout fails.",
+    "Trading at a record high means no overhead resistance but also no support above the 2.44 floor of the base if a breakout fails.",
     "Construction margins are thin, so one problem job can wipe out a quarter's profit.",
     "The order book is concentrated in data centres for a small number of clients, with Exsim-related projects a large share.",
     "RSI is close to your overheated cut-off, so two strong days would push it out of the buy zone.",
@@ -606,7 +606,7 @@
     }
    ],
    "valuation_note": "The only candidate here that is cheap on your own rules: 16.5× earnings for 61% growth.",
-   "plan_note": "Buy only on a close above 2.55 (just over today's record high) with at least 1.5× volume. The stop at 2.44 sits under the 20-day MA, about two days' normal range away.",
+   "plan_note": "Buy only on a close above 2.55 (clearing the 2.53 record high) with at least 1.5× volume. The stop at 2.44 sits at the floor of the three-week base, under the 20-day MA.",
    "yahoo": "7195.KL"
   },
   {
@@ -619,19 +619,20 @@
    "stop": 4.78,
    "tp1": 5.47,
    "tp2": 5.7,
-   "readiness": 75,
+   "readiness": 80,
    "setup": "Near breakout",
-   "why": "The data-centre construction leader, still 1.8% under the RM5.00 high it has been pressing against for three weeks, and one of the few large caps that rose today. The setup is unchanged from Friday, but the volume that made it interesting has gone: 10-day turnover has fallen to 0.6× normal, so the breakout is not being prepared yet.",
+   "why": "The data-centre construction leader, 1.8% under its 3-month high of 5.00 (touched on 9 Sep; highs since then 4.90–4.92), and one of the few large caps that rose today. Buying is still building underneath: 10-day volume is 1.4× the 60-day average. Today itself was quiet (0.7× normal), so the breakout is being prepared but has not started.",
    "passes": [
     "Uptrend: above the 20-day (4.74), 50-day (4.51) and 200-day (4.43) MA",
     "Base: 1.8% under its 3-month high of 5.00",
     "+9.1% over the past month against a KLCI that fell 4.5%",
+    "Volume building: 10-day average 1.4× the 60-day",
     "RM52bn order book; Kenanga's top construction pick",
     "Next catalyst identified: the power and cooling package for its Port Dickson hyperscale site"
    ],
    "fails": [
     "Market check failed",
-    "Volume has dried up: 0.6× normal over 10 days, against 1.4× on Friday",
+    "Today's volume was light (0.7× the 30-day average)",
     "P/E 28.5 (limit 20); ROE 8.4% (min 10%); debt/equity 103% (max 100%)"
    ],
    "pe": 28.48,
@@ -642,7 +643,7 @@
    "bears": [
     "Debt/equity above 100% and an ROE of only 8.4% for a 28× P/E.",
     "A big index stock that foreign funds keep selling; it needs the KLCI to stop falling.",
-    "It has already failed at RM5.00 three times, and each attempt adds sellers at that level.",
+    "It has stalled at 4.90–4.92 three times since touching 5.00 on 9 Sep, so sellers are waiting there.",
     "Data-centre awards slip easily, and the Port Dickson package has been 'expected in 2H' since July."
    ],
    "sources": [
@@ -660,7 +661,7 @@
     }
    ],
    "valuation_note": "Expensive on your filters; you are paying for the order book.",
-   "plan_note": "Buy only on a close above 5.01 with at least 1.5× volume — without the volume this is just the fourth failed attempt at the same level.",
+   "plan_note": "Buy only on a close above 5.01 with at least 1.5× volume. A close above the 4.90–4.92 ceiling without volume is not enough.",
    "yahoo": "5398.KL"
   },
   {
@@ -739,7 +740,7 @@
    ],
    "fails": [
     "Market check failed",
-    "No volume behind it: 0.4× normal today and over the last 10 days",
+    "Little volume behind it: 0.4× normal today and 0.8× over the last 10 days",
     "P/E 30.4 is above your limit of 20",
     "17% above its 50-day MA, so the stop has to be wide"
    ],
@@ -830,18 +831,19 @@
    "stop": 8.36,
    "tp1": 9.56,
    "tp2": 9.96,
-   "readiness": 50,
-   "setup": "Building a base",
-   "why": "Kept on the list, but demoted. The reason it was here on Friday — volume running at three times normal while the price stood still — has reversed: 10-day volume is now 0.2× normal. The chart is still a clean base under 8.75 and the business still supplies precision parts into AI chip capex, but the quiet-buying signal has gone.",
+   "readiness": 80,
+   "setup": "Quiet buying",
+   "why": "Semiconductor precision-parts supplier to the AI capex cycle that has lagged the sector's big names. The quiet-buying signal that put it here on Friday is still intact: 10-day volume is 3.1× the 60-day average while the price holds a tight base under 8.75. Today was quiet (0.3× normal) as the chip sector fell, and UMS trades mainly in Singapore, so Bursa volume is thin on any single day.",
    "passes": [
     "Uptrend: above the 20-day (8.30), 50-day (8.13) and 200-day (6.24) MA",
     "Base: 1.6% under its 1-month high of 8.75",
+    "Quiet buying continues: 10-day volume 3.1× the 60-day average",
     "Profitable, earnings +27% year on year, almost no debt (2%)",
     "RSI 60, not overheated"
    ],
    "fails": [
     "Market check failed",
-    "Volume collapsed: 0.2× normal over 10 days, against 3.0× on Friday",
+    "Today's volume was light (0.3× normal)",
     "P/E 43.7 is far above your limit of 20",
     "The wider chip sector fell today (MPI −4.5%, Inari −4.1%)"
    ],
@@ -865,8 +867,50 @@
     }
    ],
    "valuation_note": "Expensive against your filter, typical of AI-chip names.",
-   "plan_note": "Only worth acting on if the volume comes back: a close above 8.76 with at least 2× volume. Without that, leave it alone.",
+   "plan_note": "Buy only on a close above 8.76 (the 8.75 one-month high) with at least 1.5× volume.",
    "yahoo": "5340.KL"
+  },
+  {
+   "code": "INFOM",
+   "name": "Infomina",
+   "theme": "Enterprise IT for banks",
+   "price": 1.71,
+   "chg_pct": 6.2,
+   "trigger": 1.75,
+   "stop": 1.58,
+   "tp1": 2.09,
+   "tp2": 2.26,
+   "readiness": 70,
+   "setup": "Breakout attempt",
+   "why": "Jumped 6.2% today on about 5.6× normal volume to 1.71, just under its 3-month high of 1.74, after a month of trading between 1.51 and 1.74. It is up only 9.6% over the month, so this is a fresh breakout attempt rather than a stock that has already run. Growth is strong: revenue +41%, earnings +60%, ROE 22%, low debt.",
+   "passes": [
+    "Uptrend: above the 20-day (1.59), 50-day (1.53) and 200-day (1.30) MA",
+    "Heavy volume today: about 5.6× the 30-day average",
+    "1.7% under its 3-month high; 1-month range 13%",
+    "ROE 22%, earnings +60%, revenue +41%, debt/equity 14%",
+    "Only 11.5% above its 50-day MA"
+   ],
+   "fails": [
+    "Market check failed",
+    "RSI 75 is at your overheated cut-off",
+    "P/E 30.4 is above your limit of 20",
+    "Its all-time high of 1.95 is overhead resistance before TP1"
+   ],
+   "pe": 30.4,
+   "roe": 22.4,
+   "eps_growth": 60.4,
+   "de": 14,
+   "mcap_rm_m": 968,
+   "bears": [
+    "One huge-volume day can be a one-off; it needs follow-through above 1.74.",
+    "RSI at 75 means it is short-term stretched after today's jump.",
+    "The 1.95 all-time high will likely cap the first move.",
+    "A small company dependent on bank IT spending cycles."
+   ],
+   "sources": [],
+   "valuation_note": "Middling: 30× earnings for 60% growth.",
+   "plan_note": "Buy only on a close above 1.75 with at least 1.5× volume; the stop sits under the 20-day MA. Expect resistance at the 1.95 all-time high on the way to TP1.",
+   "yahoo": "0265.KL"
   }
  ],
  "already_ran": [
@@ -965,18 +1009,6 @@
    "ext50": 27.48,
    "zone": "About 2.85–2.95 (20-day MA 2.87)",
    "yahoo": "5272.KL"
-  },
-  {
-   "code": "INFOM",
-   "name": "Infomina",
-   "theme": "Enterprise IT for banks",
-   "price": 1.71,
-   "perf_w": 7.55,
-   "perf_1m": 9.62,
-   "rsi": 75,
-   "ext50": 11.46,
-   "zone": "About 1.58–1.62 (20-day MA 1.59)",
-   "yahoo": "0265.KL"
   },
   {
    "code": "HEGROUP",
