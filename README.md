@@ -35,6 +35,6 @@ Without the environment variables the site falls back to reading the `data/` fol
 ## Pages
 - `/` latest report
 - `/runs` all reports, `/runs/<date>` one report
-- `/stocks/<CODE>` price chart with MA8/MA80 and the buy trigger, stop-loss and targets, plus the stock's history across reports
+- `/stocks/<CODE>` price chart with MA9/MA90, the buy trigger, stop-loss and targets, and a 20-day money flow (Chaikin) panel, plus the stock's history across reports
 
 Not financial advice.
